@@ -1,0 +1,110 @@
+* {
+    box-sizing: content-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui;
+}
+
+body {
+    background-color: #ECF0F1;
+    background-image: url('/static/img/robot.svg');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 105% 105%;
+    overflow-x: hidden;
+}
+
+/* Color de los titulos, no agregar ninguna propiedad */
+.color-titulo {
+    color: #404a5f;
+}
+
+.color-subtitulo {
+    color: #57606F;
+}
+
+/* Fin titulos */
+
+/* Efectos de sombras generales */
+.active-effect {
+    transition: all 0.2s ease;
+}
+
+.active-effect:active {
+    transition: all 0.2s ease;
+    box-shadow: rgba(50, 50, 50, 0.2) 0px 0px 0px 3px;
+}
+
+.hover-effect {
+    transition: all 0.2s ease;
+}
+
+.hover-effect:hover {
+    transition: all 0.2s ease;
+    box-shadow: rgba(50, 50, 50, 0.2) 0px 0px 0px 3px;
+}
+
+.focus-effect {
+    transition: all 0.2s ease;
+}
+
+.focus-effect:focus {
+    transition: all 0.2s ease;
+    box-shadow: rgba(50, 50, 50, 0.2) 0px 0px 0px 3px;
+}
+
+/* Fin de sombras */
+
+/* Configuracion de grosor de fuente */
+.text-light {
+    font-weight: lighter;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-normal {
+    font-weight: normal;
+}
+/* Fin configuraciones */
+
+/* Configuracion / tamaño fuente de titulos y subtitulos */
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h6 {
+    font-weight: normal;
+}
+
+/* Fin de configuración */
+
+/* Configuración / TOOLTIPS */
+[data-content]:hover:before {
+    background: #454444;
+    border-radius: 3px;
+    color: #DEC126;
+    content: attr(data-content);
+    font-size: 16px;
+    margin-top: 6vh;
+    padding: 5px;
+    position: absolute;
+}
+
+/* [data-content]:hover:after {
+    border-color: transparent transparent #454444 transparent;
+    border-style: solid;
+    border-width: 5px;
+    content: " ";
+    margin-left: -50px;
+    margin-top: 4.5vh;
+    position: absolute;
+} */
+
+/* Fin Configuración / TOOLTIPS */

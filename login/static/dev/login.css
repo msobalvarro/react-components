@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'SourceCodePro';
+    src: url('/static/font/SourceCodePro-Medium.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #ecf0f1;
+}
+
+* {
+    font-family: 'SourceCodePro';
+    padding: 0px;
+    margin: 0px;
+}
+
+main#main {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+main h1 {
+    color: #2f3542;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+main h1 code {
+    font-size: 0.8em;
+    color: #57606f;
+}
+
+main form  {
+    display: flex;
+    flex-direction: column;    
+    width: 300px;
+}
+
+main form .row  {
+    /* padding: 10px; */
+    margin: 10px auto;
+    width: 100%;    
+}
+
+main form .row.robot  {
+    align-items: center;
+    display: flex;
+    background: #FFF;
+    border-radius: 50%;
+    border: 5px solid #CCC;
+    box-shadow: rgba(50, 50, 50, 0.5) 0px 0px 0px 10px;
+    justify-content: center;
+    height: 300px;
+}
+
+main form .row.input  {
+    justify-content: flex-start; 
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+main form .row.input input {
+    border-radius: 5px;
+    border: 2px solid #CCC;
+    transition: all 0.2s ease;
+    padding: 8px;
+    max-width: 100%;
+}
+
+main form .row.input input:focus {
+    box-shadow: rgba(50, 50, 50, 0.3) 0px 0px 0px 3px;
+}
+
+
+main form .row.buttons  {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+main form .row.buttons button  {
+    border: 2px solid #CCC;
+    border-radius: 3px;
+    color: #2f3542;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    padding: 8px;
+    outline: none;
+}
+
+main form .row.buttons button:hover  {
+    box-shadow: rgba(50, 50, 50, 0.3) 0px 0px 0px 3px;
+}

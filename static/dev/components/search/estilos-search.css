@@ -1,0 +1,14 @@
+input.input-search {
+    background-color: #ffffff;
+    background-image: url('./icon-search.svg');
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position-x: 2%;
+    background-position-y: center;
+    border-radius: 5px;
+    border: 2px solid #CCCCCC;
+    padding: 8px;
+    font-size: 18px;
+    outline: none;
+    padding-left: 30px;
+}

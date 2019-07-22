@@ -1,0 +1,46 @@
+/* Contaner select */
+.selection {
+    background-image: url('../../../img/icon-select.png');
+    background-position: 100% center;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #CCC;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 10px 0px;
+}
+
+.selection:hover {
+    border-color: #6d6d6d;
+}
+
+/* Configuracion de modal con todos los elementos */
+.background-select {
+    background-color: rgba(50, 50, 50, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    opacity: 0;
+    transition: all 0.2s ease;
+    width: 100vw;
+    z-index: 200;
+}
+
+.background-select .content {
+    color: #FFF;
+    font-size: 1.5em;
+    margin: auto;
+}
+
+.background-select .content .item {
+    cursor: pointer;
+    margin: 10px 0;
+    transition: all 0.2s ease;
+}
+
+.background-select .content .item:hover {
+    text-shadow: #2d2d2d 0px 0px 20px;
+}

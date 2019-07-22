@@ -1,0 +1,33 @@
+/* Conenedor del input y span */
+div.content-input {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Span, Placeholder */
+div.content-input span {
+    color: #4D4D4D;
+    font-size: 16px;
+}
+
+/* Input, caja de entrada */
+div.content-input input.text-input {
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #CCCCCC;
+    padding: 8px;
+    font-size: 18px;
+    float: right;
+    outline: none;
+}
+
+/* Input de flatpickr */
+input.flatpickr-input{
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #CCCCCC;
+    padding: 8px;
+    font-size: 18px;
+    float: right;
+    outline: none;
+}

@@ -1,0 +1,30 @@
+/* Boton principal */
+button.btn, a.btn, button.btn.default, a.btn.default {
+    background-color: #D8D8D8;
+    border: 1px solid #979797;
+    border-radius: 3px;
+    color: #4D4D4D;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 10px;
+    outline: none;
+}
+
+/* Boton de error, cancelar */
+button.btn.error, a.btn.error, button.btn.cancel, a.btn.cancel {
+    background-color: #A23939 !important;
+    color: #ffffff !important;
+}
+
+/* Boton de Warning, Suspender.. */
+button.btn.warning, a.btn.warning, button.btn.danger, a.btn.danger {
+    background-color: #F3D562 !important;
+    color: #4D4D4D !important;
+}
+
+/* Boton Principal, aceptar, siguiente */
+button.btn.accept, a.btn.accept, button.btn.succes, a.btn.succes, button.btn.primary, a.btn.primary  {
+    background-color: #3E6099 !important;
+    color: #FFFFFF !important;
+}

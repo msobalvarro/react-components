@@ -1,0 +1,75 @@
+/* Container padre */
+div.container.logs {
+    height: 100vh;
+    padding: 20px 2.5vw;
+}
+
+/* Contenedor de titulo y buscador */
+div.container.logs div.header-log {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+/* Contenedor del cuerpo, fitros, tabla */
+div.container.logs div.body-log {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contenedor de filtros */
+div.container.logs div.body-log div.content-filter {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border: 2px solid #CCC;
+}
+
+/* Estilos header filtros, contiene el titulo secundario y el boton de aplicar */
+div.container.logs div.body-log div.content-filter div.header-filter {
+    align-items: center;
+    border-bottom: 1px solid #CCC;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Estilos del contenedor, este contiene los componentes para filtrar */
+div.container.logs div.body-log div.content-filter div.body-filter {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+/* Estilos de las columnas, contenedores de los componentes para filtrar */
+div.container.logs div.body-log div.content-filter div.body-filter div.col {
+    flex: 1;
+    padding: 10px 20px;
+}
+
+div.container.logs div.body-log div.content-filter div.body-filter div.col span.titulo {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Retocando los span e inputs */
+div.container.logs div.body-log div.content-filter div.body-filter div.col div.row {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+/* div.container.logs div.body-log div.content-filter div.body-filter div.col div.row.multiple {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+} */
+
+div.container.logs div.body-log div.content-filter div.body-filter div.col div.row span {
+    color: #57606F;
+    padding: 5px 0;
+}
