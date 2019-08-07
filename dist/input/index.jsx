@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './estilos-input.css'
 
-/**Componente que representa el campo de busqueda generico */
+/**Componente que representa el campo generico */
 class Input extends Component {
 	/**Evento que escucha cuando cambia el valor del input */
 	onHandledChange = e => {
