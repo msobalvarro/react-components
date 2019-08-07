@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import PropType from 'prop-types'
 import './estilos-button.css'
 
+/**Componente que reemplaza el boton defecto del navegador */
 const Button = (props = { type: '', to: '' }) => {
     /**props.type definirá la clase  */
     const clase = (props.type) ? props.type : 'default'
