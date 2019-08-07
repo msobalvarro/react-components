@@ -18,7 +18,7 @@ import { Button } from 'react-components'
 
 Este componente, representa un boton con todos sus props por defecto.
 
-Podremos encontrar mas detalles aca en [Buttons](dist/button/README.md)
+Podremos encontrar mas detalles aca en [Component Buttons](dist/button/README.md)
 
 ### Component Input
 ```jsx
@@ -27,13 +27,58 @@ import { Input } from 'react-components'
 
 Este componente, representa una entrada de testo con todos sus props por defecto.
 
-Podremos encontrar mas detalles aca en [Inputs](dist/input/README.md)
+Podremos encontrar mas detalles aca en [Component Inputs](dist/input/README.md)
 
 ### Component Loader
 ```jsx
-import { loader } from 'react-components'
+import { Loader } from 'react-components'
 ```
 
 Este componente, representa una entrada de testo con todos sus props por defecto.
 
-Podremos encontrar mas detalles aca en [Loader](dist/loader/README.md)
+Podremos encontrar mas detalles aca en [Component Loader](dist/loader/README.md)
+
+### Component Modal
+```jsx
+import { Modal } from 'react-components'
+```
+
+Este componente, representa una entrada de testo con todos sus props por defecto.
+
+Podremos encontrar mas detalles aca en [Component Modal](dist/modal/README.md)
+
+### Component Search
+```jsx
+import { Search } from 'react-components'
+```
+
+Este componente, representa una entrada de testo con todos sus props por defecto.
+
+Podremos encontrar mas detalles aca en [Component Search](dist/search/README.md)
+
+### Component Select
+```jsx
+import { Select } from 'react-components'
+```
+
+Este componente, representa una entrada de testo con todos sus props por defecto.
+
+Podremos encontrar mas detalles aca en [Component Select](dist/select/README.md)
+
+### Component Table
+```jsx
+import { Table } from 'react-components'
+```
+
+Este componente, representa una entrada de testo con todos sus props por defecto.
+
+Podremos encontrar mas detalles aca en [Component Table](dist/table/README.md)
+
+### Component Toast
+```jsx
+import { Toast } from 'react-components'
+```
+
+Este componente, representa una entrada de testo con todos sus props por defecto.
+
+Podremos encontrar mas detalles aca en [Component Toast](dist/toast/README.md)
