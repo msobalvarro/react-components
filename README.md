@@ -1,6 +1,13 @@
 # React Fast Components
 
+[logo](./react.png "Logo Title Text 2")
+
 Este proyecto esta dirigido a los **FrontEnd** para poder ahorrar un poco de tiempo a la hora de desarrollar un proyecto en react.
+
+Instalamos el proyecto con: 
+```bash
+npm install rc-fast-components
+```
 
 En este __React Component__ se estructura de la siguiente manera:
 

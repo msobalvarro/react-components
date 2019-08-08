@@ -1,7 +1,11 @@
 {
-  "name": "react-fast-components",
+  "name": "rc-fast-components",
   "version": "1.0.0",
   "description": "",
+  "repository": {
+    "url": "https://github.com/msobalvarro/react-fast-components",
+    "type": "github"
+  },
   "main": "index.js",
   "author": "msobalvarro",
   "license": "ISC",
