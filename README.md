@@ -1,6 +1,6 @@
 # React Fast Components
 
-[logo](./react.png "Logo Title Text 2")
+![logo](react.png)
 
 Este proyecto esta dirigido a los **FrontEnd** para poder ahorrar un poco de tiempo a la hora de desarrollar un proyecto en react.
 
