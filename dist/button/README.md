@@ -19,7 +19,7 @@ Este prop recibe como parametro el tipo boton, devolviendo un estilo diferente p
 
 
 ## **Prop `to`**
-Al colocar este prop, indica que el boton se vuelve una etiqueta `<a />` que al dar click nos redirecionará a la ruta pasada como propiedad de `to`.
+Al colocar este prop, indica que el boton se vuelve una etiqueta `<a />` que al dar click nos redirecionará a la ruta pasada como propiedad de `href`.
 
 **Ejemplo:**
 ```html
