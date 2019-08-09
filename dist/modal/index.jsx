@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './estilos-modal.css'
+import iconClose from './cerrar.svg'
 
 class Modal extends Component {
     state = {
@@ -38,7 +39,7 @@ class Modal extends Component {
                         <div className="container_header_modal">
                             <h1 className="title_modal">Acciones</h1>
                             <div className="container_icon">
-                                <img style={{ height: '15px' }} src="Static/img/modal/cerrar.svg" onClick={this.hidden} />
+                                <img style={{ height: '15px' }} src={iconClose} onClick={this.hidden} />
                             </div>
                         </div>
                         <div className="container_body_modal">
