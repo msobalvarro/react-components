@@ -1,6 +1,6 @@
 /* Contaner select */
 .selection {
-    background-image: url('../../../img/icon-select.png');
+    background-image: url('./icon-select.png');
     background-position: 100% center;
     background-repeat: no-repeat;
     border-bottom: 2px solid #CCC;

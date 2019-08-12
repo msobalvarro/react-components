@@ -9,6 +9,19 @@
   "main": "index.js",
   "author": "msobalvarro",
   "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^3.0.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.5"
+  },
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "16.8.6",
