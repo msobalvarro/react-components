@@ -86,7 +86,7 @@ ___En el Componente `Header` debera llevar un solo componente `Row`___
 | Hey, Soy la coumna 1 |  Hey, Soy la coumna 2 | -->
 
 ### Col
-Este componente, es el clave de que todo funcione, este es obligatorio como `children` de los componentes `Header` y `Body`
+Este componente, es el clave de que todo funcione, este es obligatorio como `children` en el componente `Row`
 
 ```jsx
 <Table>

@@ -1,6 +1,11 @@
 
 ![logo](react.png)
 # React Fast Components
+---
+## <span color="red">ATENCION!!!</span>
+__ESTA ES UNA VERSION DE PRUEBA, OCUPARLO PARA PRUEBAS, PUEDEN HACER COLABORACIONES PARA APOYAR A LA COMUNIDAD__
+
+---
 
 Este proyecto esta dirigido a los **FrontEnd** para poder ahorrar un poco de tiempo a la hora de desarrollar un proyecto en react.
 
